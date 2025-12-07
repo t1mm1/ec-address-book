@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * EC Address Book module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ec_address_book_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.ec_address':
+      return '<p>' . t('Custom address book display for Drupal Commerce.') . '</p>';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ec_address_book_theme($existing, $type, $theme, $path): array {
+  return [
+    'ec_address_book' => [
+      'variables' => [
+        'addresses' => [],
+        'add_url' => NULL,
+      ],
+      'template' => 'address-book',
+    ],
+  ];
+}

@@ -1,0 +1,12 @@
+commerce_order.address_book.overview:
+  path: '/user/{user}/address-book'
+  defaults:
+    _controller: '\Drupal\ec_address_book\Controller\AddressBookController::page'
+    _title: 'Address book'
+  options:
+    parameters:
+      user:
+        type: 'entity:user'
+  requirements:
+    _address_book_access: 'TRUE'
+    _custom_access: '\Drupal\ec_address_book\Controller\AddressBookController::access'

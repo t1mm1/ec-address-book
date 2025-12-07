@@ -1,0 +1,10 @@
+name: 'EC Address Book'
+type: module
+description: 'Custom address book display for Commerce'
+core_version_requirement: ^10 || ^11
+package: 'Commerce'
+dependencies:
+  - drupal:user
+  - commerce:commerce
+  - address:address
+  - profile:profile
