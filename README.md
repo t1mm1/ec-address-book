@@ -160,15 +160,9 @@ For bug reports and feature requests, please use the issue queue on GitHub.
 
 This project is licensed under the GPL-2.0+.
 
-## Credits
+## Author
 
-Developed for enhanced Drupal Commerce address book functionality.
+Pavel Kasianov.
 
-## Changelog
-
-### 1.0.0
-- Initial release
-- Custom address book display
-- Twig template support
-- Integration with Commerce, Address, and Profile modules
-- Support for Drupal 10 and 11
+Linkedin: https://www.linkedin.com/in/pkasianov/</br>
+Drupal org: https://www.drupal.org/u/pkasianov
