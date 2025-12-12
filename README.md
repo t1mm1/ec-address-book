@@ -31,7 +31,7 @@ EC Address Book extends Drupal Commerce's address book functionality by allowing
 1. Download or clone this module into your Drupal `modules/custom` directory:
    ```bash
    cd modules/custom
-   git clone [your-repository-url] ec_address_book
+   git clone https://github.com/t1mm1/ec-address-book.git ec_address_book
    ```
 
 2. Enable the module using Drush:
