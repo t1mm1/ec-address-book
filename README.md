@@ -158,7 +158,7 @@ For bug reports and feature requests, please use the issue queue on GitHub.
 
 ## License
 
-This project is licensed under the GPL-2.0+ License - see the LICENSE file for details.
+This project is licensed under the GPL-2.0+.
 
 ## Credits
 
